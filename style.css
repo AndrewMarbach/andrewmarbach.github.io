@@ -1,0 +1,328 @@
+html,body,div {
+	margin:0px;
+	padding:0px	
+}
+body
+{ 
+	background: url("images/foret_new.jpg") no-repeat;
+	background-size : cover ;
+	background-attachment: fixed;
+	max-width: 100%;
+	height: auto;
+	color: white;
+	font-family:"Bell MT", Calibri,serif;
+}
+.moyenTitre{
+	text-align: center;
+	font-size: 32px;
+	text-decoration : underline;
+	color: #604604;
+	font-family:"Calisto MT";	
+}
+.petitTitre{
+	text-align: left;
+	margin-left:5px;
+	font-size: 26px;
+	color: #604604;
+	text-decoration : underline;
+	font-family:"Calisto MT";	
+}
+.titre
+{	
+	text-align: center;
+	font-size: 36px;
+	color: #E5A33D;
+	font-family:"Elephant";
+	font-weight: bold;
+	margin-top:0px;
+	padding-top:15px;
+	margin-bottom:0px;
+	text-decoration: underline;
+	background-color: rgba(58, 88, 51,1)
+}
+nav ul {
+	list-style-type: none;
+    display: flex;
+	margin-left:0;
+	padding-top:0px;
+	padding-left:0;
+}
+
+nav{
+	width:100%;
+    margin: 0 auto;
+	width:100%;
+	background-color: #3A5833;
+    top: 0px;
+	position :sticky;
+}
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+}
+nav > ul {
+
+	margin : auto;
+	width:80%;
+	padding: 15px;
+}
+nav > ul::after{
+	content:"";
+	display:block;
+	clear:both;	
+}
+nav > ul >li > a {
+	padding: 20px 30px;
+	color: #FFF;	
+}
+nav li{
+	liqt-style-type:none;	
+}
+.submenu{
+	display:none;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav li:hover .submenu{
+	display: inline-block;
+	position:absolute;
+	top:100%;
+	left:0px;
+	padding:0px;
+	z-index:1000;
+}
+.submenu li{
+	border-bottom: 1px solid #CCC;
+	background-color:white;
+}
+.submenu li a {
+	padding:15px 30px;
+	font-size: 19px;
+	color: gray;
+	width:270px;
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+.menu_page2:hover{
+	border-top: 5px solid #850606;
+	background-color: RGBa(228, 77, 38, 0.15)
+}
+.menu_page3:hover{
+	border-top:5px solid #0070bb;
+	background-color: RGBa(000, 112, 192, 0.15)
+}
+.menu_page4:hover{
+	border-top:5px solid #f1dc4f;
+	background-color: RGBa(245, 211, 79, 0.15)
+}
+.menu_contact:hover{
+	border-top:5px solid #BBB;
+	background-color: RGBa(220,220, 220, 0.15)
+}
+.menu_index:hover{
+	border-top:5px solid #8A2BE2;
+	background-color: RGBa(128, 0, 128, 0.15);	
+}
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+.contact{
+	color:yellow;
+	background-color:white;	
+}
+
+#topcol{ width: 100%; height: auto; background: #FFFFFF; text-align: right; } #topcol img{ float: left; }
+
+.logo{
+	width: 10%; 
+	height: auto; 
+	text-align: center;
+	float: left; 
+	margin-left:10px;
+	padding-top:0px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.intro{
+	font-size:32px;
+	text-indent:40px;
+	font-family:"Segoe UI Black";
+	font-weight: bold;
+	color : #white
+}
+.petiteIntro{
+	margin:10px;
+	color : white;
+	text-indent:10px;
+	font-size:20px;
+	font-style:italic;
+	text-indent:10px;
+	font-family:"Calisto MT";
+	background-color: rgba(128, 128, 128, 0.5)
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #3A5833;
+    color: #FFF;
+}
+.imageIntro{
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	border: 10px solid black;
+	max-width: 50%;
+	height: auto
+}
+.exIntro{
+	font-size:16px;
+	font-style:italic;
+	font-family:"Bell MT";
+	text-align:center;
+	color: #312403s ;
+}
+.titreCepe{
+	font-size : 45px ;
+	color : #604604 ;
+	font-family : DejaVu Sans Mono, monospace ;
+	text-align: center ;
+	border-width: 7px ;
+	border-color :  #B86B0E;
+	border-style : solid ;
+	margin-left : 550px;
+	margin-right : 550px ;
+}
+.tabContact{
+	color : #3A5833;
+}
+.Tab_ch{
+	color : #7B5F19 ;
+}
+.PhotoP2ex{
+	float:right;
+	width : 8%;
+	margin-left : 30px;
+	margin-right:10px;
+	display: block;
+	border: 5px solid black;
+	max-width:200px;
+}
+
+.exP2_I{
+	float :top;
+	font-size:16px;
+	font-style:italic;
+	font-family:"Bell MT";
+	margin-left:20px ;
+	font-weight: bold;
+	color: #604604 ;
+}
+.text{
+	font-size : 19px;
+	background-color: rgba(128, 128, 128, 0.5);
+	margin:10px;
+} 
+.photoP2{
+	margin-left : 50px;
+	margin-top : 15px;
+}
+
+/* Les paramètres de la 3e page "Les champignons toxiques */
+.page3PetitTtire{
+	font-size:40px;
+	text-indent:40px;
+	font-family:"Perpetua";
+	font-weight:bold;
+	color : #B86B0E
+}
+
+.page3paragraphe{
+	margin:10px;
+	color : white;
+	text-indent:10px;
+	font-size:20px;
+	font-style:italic;
+	text-indent:10px;
+	font-family:"Century";
+
+	
+}
+
+.video{
+	text-align:center;
+}
+
+
+
+.page3Liste{
+	list-style:square;
+	margin:10px;
+	color : white;
+	text-indent:100px;
+	font-size:22px;
+	font-style:italic;
+	text-decoration:underline;
+	text-indent:50px;
+	font-family:"Century";
+
+}
+
+.imageChampToxiques{
+	display: block;
+	border: 5px solid black;
+	float:left;
+	max-width:200px;
+}
+	
+.toxiques {
+	padding-right:500 px;
+    background-color: rgba(184, 107, 14, 0.5);
+    padding: .5rem;
+	margin-right : 45px;
+    display: flex;
+    flex-direction: column;
+	
+}
+
+.page3Att{
+	color : red;
+	text-align:center;
+	text-indent:10px;
+	 background-color: rgba(255,255,255,0.5);
+	font-size:20px;
+	font-style:bold;
+	text-indent:15px;
+	font-family:"Century";
+}
+.imgattgauche{
+	float:left;
+}
+.imgattdroite{
+	float:right;
+}
+
+.page3intro{
+	margin:10px;
+	color : white;
+	text-indent:10px;
+	font-size:20px;
+	font-style:italic;
+	text-indent:10px;
+	font-family:"Century";
+	padding-right:500 px;
+    background-color: rgba(184, 107, 14, 0.5);
+    padding: .5rem;
+	margin-right : 45px;
+    display: flex;
+    flex-direction: column;
+}
